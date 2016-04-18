@@ -33,7 +33,7 @@ if test ! -e gmock; then
   echo "Google Mock not present.  Fetching gmock-1.7.0 from the web..."
 
 #  curl $curlopts -O https://googlemock.googlecode.com/files/gmock-1.7.0.zip
-curl $curlopts  -L -o gmock-1.7.0.zip https://github.com/peter-wangxu/gmock/archive/1.7.0.zip
+curl $curlopts  -L -o gmock-1.7.0.zip https://github.com/lolandkidtress/protobuf/tree/master/archive/gmock-1.7.0.zip
 
   unzip -q gmock-1.7.0.zip
   rm gmock-1.7.0.zip
